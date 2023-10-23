@@ -11,13 +11,7 @@ public class Main {
         Refugee refugee = new Refugee("Serhii", 22);
 
         List<Character> characters = new ArrayList<>(List.of(cook, refugee));
-        characters.forEach(character -> {
-            character.sayAge();
-            character.sayName();
-        });
-
-        // commit 2
+        characters.forEach(character -> character.sayAge());
         System.out.println("Hello world!");
-        // commit 666
     }
 }
