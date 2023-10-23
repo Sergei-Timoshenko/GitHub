@@ -11,7 +11,10 @@ public class Main {
         Refugee refugee = new Refugee("Serhii", 22);
 
         List<Character> characters = new ArrayList<>(List.of(cook, refugee));
-        characters.forEach(character -> character.sayAge());
+        characters.forEach(character -> {
+            character.sayAge();
+            character.sayName();
+        });
         System.out.println("Hello world!");
     }
 }
