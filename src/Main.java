@@ -13,5 +13,6 @@ public class Main {
         List<Character> characters = new ArrayList<>(List.of(cook, refugee));
         characters.forEach(character -> character.sayAge());
         System.out.println("Hello world!");
+        // commit from dev-pick
     }
 }
