@@ -18,5 +18,6 @@ public class Main {
 
         // commit 2
         System.out.println("Hello world!");
+        // commit 666
     }
 }
